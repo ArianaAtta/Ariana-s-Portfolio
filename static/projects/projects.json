@@ -1,0 +1,88 @@
+{
+  "projects": [
+    {
+      "name": "Choose Your Own Adventure Game",
+      "link": "choose-your-own-adventure",
+      "date": "April 2022",
+      "short": "Have you ever read a book or watched a movie and badly wanted a character to go a certain direction or make a specific choice? Well with the choose your own adventure game, you don't have to dread the decision made by the character. You are the character! All choices are up to you in this user based decison game. ",
+      "status": "complete",
+      "weight": 1,
+      "tags": [
+        "Terminal",
+        "python"
+      ],
+      "tech_used": [
+        "Visual Studio"
+      ],
+      "photos": [
+        "/static/projects/choose-your-own-adventure/choose_adventure.png",
+        "/static/projects/choose-your-own-adventure/adventure_game.gif"
+      ],
+      "github": "https://github.com/ArianaAtta/Choose-your-own-Adventure-Game"
+    },
+    {
+      "name": "Duck, Duck, Arrow Pygame",
+      "link": "duck-duck-arrow",
+      "date": "June 2022",
+      "weight": 3,
+      "short": "This is a fun and simple game for anyone to play, whether it is to pass time when your bored or to challenge your friends or family to see who can get the highest score.",
+      "status": "complete",
+      "tags": [
+        "python",
+        "Pygame",
+        "visual"
+      ],
+      "tech_used": [
+        "Visual Studio"
+      ],
+      "photos": [
+        "/static/projects/duck-duck-arrow/duck_duck_arrow_start.png",
+        "/static/projects/duck-duck-arrow/duck_duck_arrow_game.gif"
+      ],
+      "github": "https://github.com/ArianaAtta/Duck-Duck-Arrow"
+    },
+    {
+      "name": "Mapify: Camping in Ontario",
+      "link": "ontario-provincial-parks-map",
+      "date": "May-June 2022",
+      "short": "Whether it is camping with the family, friends, or perhaps by yourself, this map of a few of the campgrounds that are found all over Ontario can help. Perhaps you like to hike, fish, or enjoy a nice secluded campground. Well, this interactive map may just prove to be useful.",
+      "status": "complete",
+      "weight": 2,
+      "tags": [
+        "python",
+        "folium",
+        "visual"
+      ],
+      "tech_used": [
+        "Visual Studio"
+      ],
+      "photos": [
+        "/static/projects/ontario-provincial-parks-map/map_first_layer.png",
+        "/static/projects/ontario-provincial-parks-map/map_second_layer.png",
+        "/static/projects/ontario-provincial-parks-map/map_third_layer.png",
+        "/static/projects/ontario-provincial-parks-map/map_fourth_layer.png",
+        "/static/projects/ontario-provincial-parks-map/map_fifth_layer.png",
+        "/static/projects/ontario-provincial-parks-map/map_mode_two.png",
+        "/static/projects/ontario-provincial-parks-map/ontario_camp_map.gif",
+        "/static/projects/ontario-provincial-parks-map/csv_file.png"
+      ],
+      "github": "https://github.com/ArianaAtta/Ontario-Parks-Map"
+    },
+    {
+      "name": "Portfolio",
+      "link": "portfolio",
+      "date": "June 2022",
+      "weight": 4,
+      "short": "This is my final project in my grade eleven class. The portfolio shows a bit about me and my programming journey.",
+      "status": "compleated",
+      "tags": [
+        "Python",
+        "Web",
+        "Flask"
+      ],
+      "photos": [
+        "/static/projects/portfolio/ariana_portfolio.png"
+      ]
+    }
+  ]
+}

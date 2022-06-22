@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">Python 3</span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='user'>Python 3 Portfolio</span><span class="at">@</span><span
+                                class="path">/home/Ariana/</span>><span class="caret">$</span></span>
+                        <span class="typed"></span>
+                        <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"/></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Ariana</p>
+            <p class="text-title desktop-view">Attanasio</p>
+            <p class="text-title mobile-view">Ariana Attanasio</p>
+            <div class="social-icons">
+                <a target="_blank" href="">
+                    <img class="title-logo" src="https://via.placeholder.com/150">
+                </a>
+                <a target="_blank" href="https://via.placeholder.com/150">
+                    <img class="title-logo" src="https://via.placeholder.com/150">
+                </a>
+                <a target="_blank" href="">
+                    <img class="title-logo" src="https://via.placeholder.com/150">
+                </a>
+                <a target="_blank" href="">
+                    <img class="title-logo" src="https://via.placeholder.com/150">
+                </a>
+            </div>
+        </div>
+        <div class="middle-text">
+            <p class="text-content">I am a high school student at Iona Catholic Secondary School who is interested in computer science and all the innovative projects and ideas that follow. I always enjoyed the learning experiences that come with studying different computer science languages such as python and html.</p>
+
+            <p class="text-content">From a young age, I took an intrest in programming and computers, whether it was watching my dad fix old laptops and computers or participating in programming activities in elementry school.</p>
+
+            <p class="text-content">The past year and a bit, I have been taking computer science classes and thoroughly enjoy all the different life lessons that have come along with the course. In the future, I am looking forward to exploring the computer science and programming path and am eager to continue learning alongside and from amazing people.</p>
+
+            <p class="text-content">Don't be afraid to get in touch and tell me a bit about yourself.<br>---Ariana Attanasio---</p>
+
+            <p class="text-content">You can reach me at <u>myemail@gmail.com</u></p>
+
+            <p class="text-content"><a href="timeline">For more about me, read my timeline here.</a></p>
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}

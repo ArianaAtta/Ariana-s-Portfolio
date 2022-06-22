@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/timeline.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+
+        <div class="col s12 m4 l8">
+            <span class="date">2022 and beyond</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">school</i>
+                        <a href="/timeline" class="title">High School and Future</a>
+                    </div>
+                    <span class="content">In my third year of high school, I have taken two computer science classes, and looking forward to taking another in grade twelve. Even if this looks like the last entry in my timeline, I can definitly promise this is not the end of my journey. In fact, it is just beginning and I can see many possibilities in my future. </i></a>.
+                    </span>
+                </li>
+            </div>
+        <div class="col s12 m4 l8">
+            <span class="date">Summer of 2021</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">school</i>
+                        <a href="/timeline" class="title">Code Like a Girl Camp</a>
+                    </div>
+                    <span class="content">In the summer of 2021, I attended a camp run by McMaster University called Code Like a Girl. This was a bio-engineering camp where they taught me many amazing skills such as creating new products to solve a targeted problem and also using the programming language elm. This camp showed me that sometimes teamwork/working in a group is a great way of solving problems in our world. In the end, sometimes all we need is someone elses perspective.
+                    </span>
+                </li>
+        </div>
+        <div class="col s12 m4 l8">
+            <span class="date">2009 to 2019</span>
+            <ul class="list">
+                <li>
+                    <div class="icon-title">
+                        <i class="tiny material-icons">school</i>
+                        <a href="/timeline" class="title">Elementary School</a>
+                    </div>
+                    <span class="content">Through these years, I attended St.Louis Catholic Elementary School. There I was first exposed to very simple programming. This was one of the motivating factors that pushed me into exploring computer science in high school. (Which I'm glad that I did by the way). In elementary school, I also learned important skills that I could carry on with using in my life such as organization, team work, and problem solving.
+                    </span>
+                </li>
+    </div>
+    <br>
+    <br>
+</div>
+
+<!--<li><a href="/projects/" class="title">[]</a>
+    <span class="content"></span></li>-->
+{% endblock %}
